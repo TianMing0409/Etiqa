@@ -28,6 +28,59 @@
   color: #61dafb;
 }
 
+.app-container {
+  display: flex;
+  height: 500px;
+}
+
+.background-image {
+  background-image: url('../src/Assests/Images/freelance.png');
+  width: 100vw;
+  height: 500px; /* Set the height of the container */
+  position: relative;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.create-user-button {
+  position: absolute;
+  margin-top: 100px;
+  top: 200px; 
+  right: 6%;  
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 300px;
+  height: 60px;
+  font-size: 25px;
+}
+
+
+.my-div{
+  position: absolute;
+  width: 460px; 
+  right: 1%; 
+  padding: 10px 20px;
+  background-color: rgb(199, 199, 199);
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 497px;
+  top: 0.5%;
+}
+
+.welcomeNew{
+  top: 30px; 
+  right: 0%; 
+  color: black;
+
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
